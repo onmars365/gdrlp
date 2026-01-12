@@ -1,56 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="UTF-8">
-    <!-- 关键：适配手机端屏幕 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>跳转演示（地址栏不变）</title>
-    <style>
-        /* 让iframe占满整个页面，视觉上和直接跳转一致 */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        #targetFrame {
-            width: 100%;
-            height: 100%;
-            border: none;
-            /* 兼容老浏览器的iframe样式 */
-            display: block;
-        }
-    </style>
+    <meta http-equiv="refresh" content="0;url=https://gdrlp2011.feishu.cn/app/N4Tcbesi7an4cbsE6jWc0kS4ntf">
 </head>
 <body>
-    <!-- iframe容器，用于加载目标网站 -->
-    <iframe id="targetFrame" src=""></iframe>
-
-    <script>
-        // 兼容所有浏览器的跳转函数（核心）
-        function jumpToUrl(targetUrl) {
-            try {
-                const iframe = document.getElementById('targetFrame');
-                // 处理URL格式，兼容无http/https的情况
-                const fullUrl = targetUrl.startsWith('http') ? targetUrl : `https://${targetUrl}`;
-                
-                // 兼容IE/老浏览器的iframe赋值方式
-                if (iframe.contentWindow) {
-                    iframe.src = fullUrl;
-                } else {
-                    iframe.setAttribute('src', fullUrl);
-                }
-            } catch (e) {
-                // 若iframe被目标网站禁止（如部分网站防嵌套），降级为新窗口打开
-                window.open(targetUrl, '_blank');
-            }
-        }
-
-        // 示例：跳转到微博（可替换为任意网址）
-        // 页面加载完成后自动跳转，地址栏仍显示当前页面URL
-        window.onload = function() {
-            jumpToUrl('https://gdrlp2011.feishu.cn/wiki/Lsd8wJVkziW7JMkDVuXcCWPDnAf?from=from_copylink');
-        };
-    </script>
+    <script>window.location.href = "https://gdrlp2011.feishu.cn/app/N4Tcbesi7an4cbsE6jWc0kS4ntf";</script>
 </body>
 </html>
