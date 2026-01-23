@@ -1,10 +1,1012 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://gdrlp2011.feishu.cn/app/N4Tcbesi7an4cbsE6jWc0kS4ntf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌德瑞礼品 - 全球电商精品运营专家</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #FF391B;
+            --secondary-color: #FFEA00;
+            --dark-color: #333333;
+            --light-color: #F8F9FA;
+            --gray-color: #6C757D;
+            --white-color: #FFFFFF;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--white-color);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-color);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--gray-color);
+            margin-bottom: 50px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+        }
+
+        .btn-primary:hover {
+            background-color: #e03115;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 57, 27, 0.2);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #f5d800;
+            transform: translateY(-3px);
+        }
+
+        /* 导航栏样式 */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        .header-scrolled {
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            color: var(--dark-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            cursor: pointer;
+        }
+
+        /* 首页英雄区域 */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--white-color);
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .hero-btns {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        /* 关于我们区域 */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+
+        .about-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+            margin: 10px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--gray-color);
+        }
+
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* 主营业务区域 */
+        .services {
+            background-color: var(--light-color);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: var(--white-color);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark-color);
+        }
+
+        .service-card p {
+            color: var(--gray-color);
+            margin-bottom: 20px;
+        }
+
+        /* 供应招募区域 */
+        .supply-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .supply-card {
+            background-color: var(--white-color);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .supply-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .supply-image {
+            height: 180px;
+            overflow: hidden;
+        }
+
+        .supply-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .supply-card:hover .supply-image img {
+            transform: scale(1.05);
+        }
+
+        .supply-content {
+            padding: 25px;
+        }
+
+        .supply-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--dark-color);
+        }
+
+        .supply-content p {
+            color: var(--gray-color);
+            font-size: 0.95rem;
+        }
+
+        .supply-tag {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 15px;
+        }
+
+        /* 人才招聘区域 */
+        .jobs {
+            background-color: var(--light-color);
+        }
+
+        .jobs-list {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .job-item {
+            background-color: var(--white-color);
+            border-radius: 10px;
+            padding: 25px 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .job-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: var(--dark-color);
+        }
+
+        .job-info p {
+            color: var(--gray-color);
+            font-size: 0.95rem;
+        }
+
+        .job-tag {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        /* 联系我们区域 */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+        }
+
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .contact-details {
+            margin-top: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+
+        .contact-icon {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 1rem;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        /* 页脚区域 */
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white-color);
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--white-color);
+        }
+
+        .footer-logo span {
+            color: var(--secondary-color);
+        }
+
+        .footer-links h4,
+        .footer-social h4 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--white-color);
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary-color);
+            padding-left: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--white-color);
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .social-icons a:hover {
+            background-color: var(--secondary-color);
+            color: var(--dark-color);
+            transform: translateY(-5px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .about-content {
+                flex-direction: column;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                background-color: var(--white-color);
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+                transform: translateY(-150%);
+                transition: var(--transition);
+                z-index: 999;
+            }
+
+            .nav-links.active {
+                transform: translateY(0);
+            }
+
+            .nav-links li {
+                margin: 15px 0;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.3rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .hero-btns {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .job-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .job-item .btn {
+                margin-top: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .stat-item {
+                min-width: 120px;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <script>window.location.href = "https://gdrlp2011.feishu.cn/app/N4Tcbesi7an4cbsE6jWc0kS4ntf";</script>
+    <!-- 导航栏 -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">歌德瑞礼品</a>
+                <ul class="nav-links">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#services">主营业务</a></li>
+                    <li><a href="#supply">供应招募</a></li>
+                    <li><a href="#jobs">人才招聘</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首页英雄区域 -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>全球电商精品运营专家</h1>
+                <p>歌德瑞礼品专注于为全球电商平台提供一站式精品运营解决方案，覆盖亚马逊、沃尔玛、eBay等主流平台，助力品牌实现全球化增长。</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">联系我们</a>
+                    <a href="#supply" class="btn btn-secondary">成为供应商</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">关于我们</h2>
+            <p class="section-subtitle">歌德瑞礼品成立于2011年，是一家专注于全球电商市场的精品运营服务商，致力于为客户提供全方位的电商解决方案。</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>我们的使命与愿景</h3>
+                    <p>我们以"让全球优质产品触手可及"为使命，致力于通过专业的电商运营服务，帮助供应商和品牌方在全球电商市场取得成功。</p>
+                    <p>我们的团队由经验丰富的电商运营专家、市场营销人员和产品开发人员组成，熟悉各大电商平台的运营规则和市场趋势，能够为客户提供定制化的解决方案。</p>
+                    <p>通过多年的积累，我们已经建立了完善的供应链体系、物流网络和数据分析系统，确保每一个项目都能高效执行并取得优异成果。</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">年行业经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">合作品牌</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">国家市场</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">专业团队</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="歌德瑞团队">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主营业务 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">主营业务</h2>
+            <p class="section-subtitle">我们提供全面的电商平台运营服务，覆盖从产品上架到营销推广的每一个环节。</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>电商精品运营</h3>
+                    <p>为产品提供全方位的电商运营服务，包括市场分析、产品定位、页面优化、营销策划等，提升产品在电商平台的竞争力。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <h3>亚马逊运营</h3>
+                    <p>专业的亚马逊平台运营服务，包括账户管理、产品上架、广告投放、Review管理、品牌注册等，助力产品在亚马逊上取得成功。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>沃尔玛运营</h3>
+                    <p>沃尔玛电商平台全方位运营服务，帮助品牌快速入驻沃尔玛，优化产品列表，提升在沃尔玛平台的销售表现。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-ebay"></i>
+                    </div>
+                    <h3>eBay运营</h3>
+                    <p>eBay平台专业运营服务，包括店铺管理、拍卖策略、国际物流、客户服务等，最大化eBay平台的销售潜力。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-egg"></i>
+                    </div>
+                    <h3>新蛋运营</h3>
+                    <p>新蛋(Newegg)平台专业运营服务，针对电子产品和技术类产品的特点，提供定制化的运营策略。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Wish运营</h3>
+                    <p>Wish平台移动端电商运营服务，专注于移动购物体验优化，大数据选品和个性化推荐策略。</p>
+                    <a href="#contact" class="btn btn-primary">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 供应招募 -->
+    <section id="supply">
+        <div class="container">
+            <h2 class="section-title">供应招募</h2>
+            <p class="section-subtitle">我们正在寻找优质的产品供应商，合作品类包括但不限于以下领域：</p>
+            <div class="supply-grid">
+                <div class="supply-card">
+                    <div class="supply-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="户外用品">
+                    </div>
+                    <div class="supply-content">
+                        <h3>户外用品</h3>
+                        <p>露营装备、登山器材、户外服装、钓鱼用品、运动配件等各类户外运动产品。</p>
+                        <span class="supply-tag">热招品类</span>
+                    </div>
+                </div>
+                <div class="supply-card">
+                    <div class="supply-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="办公用品">
+                    </div>
+                    <div class="supply-content">
+                        <h3>办公用品</h3>
+                        <p>文具、办公设备、办公家具、会议用品、办公耗材等提高工作效率的产品。</p>
+                        <span class="supply-tag">稳定需求</span>
+                    </div>
+                </div>
+                <div class="supply-card">
+                    <div class="supply-image">
+                        <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="宠物用品">
+                    </div>
+                    <div class="supply-content">
+                        <h3>宠物用品</h3>
+                        <p>宠物食品、宠物玩具、宠物服装、宠物护理产品、宠物智能设备等宠物相关产品。</p>
+                        <span class="supply-tag">快速增长</span>
+                    </div>
+                </div>
+                <div class="supply-card">
+                    <div class="supply-image">
+                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="数码产品">
+                    </div>
+                    <div class="supply-content">
+                        <h3>数码产品</h3>
+                        <p>手机配件、智能穿戴、电脑周边、摄影器材、音频设备等消费电子产品。</p>
+                        <span class="supply-tag">热门品类</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#contact" class="btn btn-primary">提交供应信息</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 人才招聘 -->
+    <section id="jobs" class="jobs">
+        <div class="container">
+            <h2 class="section-title">人才招聘</h2>
+            <p class="section-subtitle">加入我们，一起创造电商行业的新未来！我们正在寻找以下职位的优秀人才：</p>
+            <div class="jobs-list">
+                <div class="job-item">
+                    <div class="job-info">
+                        <h3>电商运营专员</h3>
+                        <p>负责亚马逊、沃尔玛等平台店铺的日常运营管理，优化产品列表，提升销售额。</p>
+                        <span class="job-tag">全职</span>
+                        <span class="job-tag">深圳</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">申请职位</a>
+                </div>
+                <div class="job-item">
+                    <div class="job-info">
+                        <h3>电商设计师</h3>
+                        <p>负责产品图片处理、详情页设计、营销素材制作等视觉设计工作。</p>
+                        <span class="job-tag">全职</span>
+                        <span class="job-tag">深圳</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">申请职位</a>
+                </div>
+                <div class="job-item">
+                    <div class="job-info">
+                        <h3>财务经理</h3>
+                        <p>负责公司财务管理工作，包括预算编制、成本控制、财务分析等。</p>
+                        <span class="job-tag">全职</span>
+                        <span class="job-tag">深圳</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">申请职位</a>
+                </div>
+                <div class="job-item">
+                    <div class="job-info">
+                        <h3>产品开发专员</h3>
+                        <p>负责市场调研、产品选品、供应商开发、样品测试等产品开发工作。</p>
+                        <span class="job-tag">全职</span>
+                        <span class="job-tag">深圳</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">申请职位</a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <p>以上职位长期有效，也欢迎其他电商相关人才投递简历至 sq@gdrlp.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <p class="section-subtitle">如果您有任何问题或合作意向，请随时与我们联系，我们将尽快回复您。</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>联系信息</h3>
+                    <p>欢迎通过以下方式联系我们，或填写右侧的联系表单，我们的团队会在24小时内给您回复。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>公司地址</h4>
+                                <p>深圳市龙岗区华南城<br>5号馆A座1901-1902</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>联系电话</h4>
+                                <p>+86 755 1234 5678<br>工作日 9:00-18:00</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>电子邮箱</h4>
+                                <p>sales@gdrlp.com<br>sq@gdrlp.com (招聘)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="歌德瑞团队">
+                </div>
+                <!--<div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="您的姓名" required>
+                        <input type="email" placeholder="电子邮箱" required>
+                        <input type="text" placeholder="联系电话">
+                        <input type="text" placeholder="主题">
+                        <textarea placeholder="请描述您的需求或问题..." required></textarea>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">发送消息</button>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">歌德瑞礼品</div>
+                    <p>歌德瑞礼品是一家专注于全球电商精品运营的服务商，致力于为供应商和品牌方提供专业的电商解决方案。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#services">主营业务</a></li>
+                        <li><a href="#supply">供应招募</a></li>
+                        <li><a href="#jobs">人才招聘</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>关注我们</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <!--<p style="margin-top: 20px; font-size: 0.9rem;">订阅我们的新闻通讯，获取电商行业最新动态</p>
+                    <div style="display: flex; margin-top: 10px;">
+                        <input type="email" placeholder="您的邮箱" style="flex: 1; padding: 10px; border: none; border-radius: 4px 0 0 4px;">
+                        <button class="btn btn-secondary" style="border-radius: 0 4px 4px 0; padding: 10px 15px;">订阅</button>
+                    </div>-->
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 深圳歌德瑞礼品公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 移动端菜单切换
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // 滚动时导航栏样式变化
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    // 关闭移动端菜单
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // 联系表单提交
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('感谢您的留言！我们会尽快与您联系。');
+            contactForm.reset();
+        });
+    </script>
 </body>
 </html>
